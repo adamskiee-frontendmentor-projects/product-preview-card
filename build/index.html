@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="h-screen flex items-center justify-center bg-cream">
+  <main class="max-w-xs w-full bg-white flex flex-col rounded-lg min-desktop:grid min-desktop:grid-cols-2 min-desktop:max-w-xl">
+    <div class="rounded">
+      <img src="../images/image-product-mobile.jpg" alt="a product" class="rounded-t-lg min-desktop:hidden"/>
+      <img src="../images/image-product-desktop.jpg" alt="a product" class="hidden rounded-s-lg min-desktop:block min-desktop:object-cover">
+    </div>
+    <div class="py-8 px-7 flex flex-col gap-5 min-desktop:justify-between">
+      <span class="font-montserrat uppercase text-xs tracking-[.25em] text-grey min-desktop:tracking-[.35em]">Perfume</span>
+      <h1 class="font-bold text-3xl font-fraunces leading-none min-desktop:pe-2">Gabrielle Essence Eau De Parfum</h1>
+      <p class="text-sm text-grey pr-4 min-desktop:text-dekstop-p">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+      </p>
+      <div class="flex gap-3 items-center font-fraunces">
+        <span class="text-3xl text-green-500 font-bold">$149.99</span>
+        <span class="text-xs text-grey line-through">$169.99</span>
+      </div>
+      <button class="flex items-center justify-center gap-2 px-10 py-4 bg-green-500 hover:bg-green-700 text-white font-bold text-fraunces rounded-xl text-sm">
+        <img src="../images/icon-cart.svg" alt="">
+        <span>Add to Cart</span>
+      </button>
+    </div>
+  </main>  
+  </div>
+</body>
+</html>
