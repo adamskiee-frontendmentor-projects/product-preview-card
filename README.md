@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Adamskiee/product-preview-card)
-- Live Site URL: [Website](https://adamskiee.github.io/product-preview-card/)
+- Solution URL: [GitHub](https://github.com/adamskiee-frontendmentor-projects/product-preview-card)
+- Live Site URL: [Website](https://adamskiee-frontendmentor-projects.github.io/product-preview-card/)
 
 ## My process
 
